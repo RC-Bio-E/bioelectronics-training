@@ -1,0 +1,10 @@
+part,manufacturer_pn,qty,notes
+Instrumentation Amplifier,AD8220,1,INA gain set by RG
+Op-Amp dual,TLV9002,1,Active filters
+Resistor,499,1,RG for G~100 (AD8220)
+Resistor,82k,2,HPF (with 0.1uF)
+Capacitor,0.1uF,2,HPF
+Resistor,360k,2,LPF (with 1nF)
+Capacitor,1nF,2,LPF
+Snap electrodes,Ag/AgCl,3,2 active + 1 reference
+MCU board,STM32F103C8T6,1,Blue Pill
